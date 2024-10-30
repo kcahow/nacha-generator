@@ -24,10 +24,10 @@ export const generateNachaFile = (recordCount:number) => {
     // Create a new Batch
     const batchOne = new Batch({
         transactionTypes: ServiceClass.Credit,
-        originCompanyName: "Sigmans Seafood",
+        originCompanyName: "Sigmans The Seamonster",
         originDiscretionaryData: "123456789",
         originIdentification: "123456789",
-        code: BatchCode.WEB,
+        code: BatchCode.CCD,
         description: "Payroll",
         descriptiveDate: new Date(),
         effectiveEntryDate: new Date(),
